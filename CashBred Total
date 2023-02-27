@@ -1,0 +1,5 @@
+SELECT Faturamento * 0.04 WHERE  Date (Data) >= THIS - 365 AND Date (Data) >= 03/01/2023
+
+# métrica base de todo o painel 
+# calcula 4% de todo e qualquer faturamento (a métrica "faturamento" é todo e qualquer valor vendido pela empresa)
+# validando apenas a duração da venda (1 ano de validade) e a data de início da campanha (01 de Março de 2023)
