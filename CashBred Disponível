@@ -1,0 +1,4 @@
+SELECT Faturamento * 0.04 WHERE Date (Data) >= THIS - 365 AND Date (Data) <= THIS - 30 AND Date (Data) >= 03/01/2023
+
+# Métrica mostra o valor em CashBred disponível para utilização 
+# Valida o prazo de 30 dias após a venda 
