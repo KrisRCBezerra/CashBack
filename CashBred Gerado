@@ -1,0 +1,5 @@
+SELECT CASE WHEN Date (Data) > THIS - 30 THEN -1 * $ Faturamento bruto * 0.04, WHEN Date (Data) < THIS - 365 THEN 0 ELSE $ Faturamento bruto * 0.04 END
+
+# Essa métrica mostra o quando em CashBred foi gerado em cada venda (não validando os prazos definidos)
+# Métrica base para utilização em Reports de Clientes
+# A utilização dos valores em negativo é para manipular a estética dos números.
