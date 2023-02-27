@@ -1,0 +1,5 @@
+SELECT IFNULL((SELECT SUM( "Valor de Recebimento (contas a receber)"  )),0) WHERE   "Prefixo do título"   = VAL
+
+# Prefixo "VAL" foi criado para a geração de bônus para cliente 
+# Essa métrica está retornando apenas os valores de Notas de Crédito (Bônus) com a série/prefixo "VAL"
+# métrica criada para controle de valores em CashBred utilizados
