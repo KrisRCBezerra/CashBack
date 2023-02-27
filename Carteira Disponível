@@ -1,0 +1,4 @@
+SELECT   "CashBred Disponível"   -   "CashBred Valor Utilizado"
+
+# mostra os valores disponíveis para uso do cliente, subtraindo os que ja foram utilizados 
+# lembrando que os valores só ficam disponíveis depois de 30 dias de compra

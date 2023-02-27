@@ -1,0 +1,3 @@
+SELECT   "CashBred Total"   -   "CashBred Valor Utilizado"
+
+# junção das duas métricas para mostrar o valor total da Carteira de CashBack do cliente, subtraindo o valor que ele já utilizou
